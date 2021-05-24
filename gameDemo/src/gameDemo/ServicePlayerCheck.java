@@ -2,6 +2,6 @@ package gameDemo;
 
 public interface ServicePlayerCheck {
 	
-	 Boolean checkIfRealPerson(EntityPlayer player);
+	 boolean checkIfRealPerson(EntityPlayer player);
 	 
 }
