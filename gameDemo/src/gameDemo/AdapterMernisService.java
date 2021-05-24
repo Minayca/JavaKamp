@@ -7,7 +7,7 @@ import tr.gov.nvi.tckimlik.WS.KPSPublicSoapProxy;
 public class AdapterMernisService implements ServicePlayerCheck{
 
     @Override
-    public Boolean checkIfRealPerson(EntityPlayer player) {
+    public boolean checkIfRealPerson(EntityPlayer player) {
         KPSPublicSoapProxy kpsPublicSoapProxy = new KPSPublicSoapProxy();
 
         boolean result = false;
