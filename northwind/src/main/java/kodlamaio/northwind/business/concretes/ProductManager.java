@@ -19,7 +19,7 @@ import kodlamaio.northwind.entities.concretes.Product;
 @Service
 public class ProductManager implements ProductService {
 
-	ProductDao productDao;
+	ProductDao productDao; //Default olarak private tanımlanıyor.
 	
 	@Autowired //Arka planda productDao nun instance ı olabilecek bir class üretir.
 	public ProductManager(ProductDao productDao) {
